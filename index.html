@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div class="floating-hearts" id="heartsContainer"></div>
+
+  <!-- Decorative corner images (subtle accents) -->
+  <img 
+    class="deco-image deco-top-left" 
+    src="assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-104f4572-2fb4-4d80-a4ab-b10bc1cb3e39.png" 
+    alt=""
+    aria-hidden="true"
+  >
+  <img 
+    class="deco-image deco-top-right" 
+    src="assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-73f7e63e-586c-4295-b7f9-2087abf3394c.png" 
+    alt=""
+    aria-hidden="true"
+  >
+  <img 
+    class="deco-image deco-bottom-left" 
+    src="assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-4693e5e0-4446-4a4d-9ec9-13436ee0a175.png" 
+    alt=""
+    aria-hidden="true"
+  >
+  <img 
+    class="deco-image deco-bottom-right" 
+    src="assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-ca91239a-59e7-4ac3-8ffa-5d67c9846ced.png" 
+    alt=""
+    aria-hidden="true"
+  >
+
+  <main class="main">
+    <h1 class="animate-in">Happy Valentine's Day Anjali</h1>
+    <p class="byline animate-in delay-1">A little note for someone special</p>
+    <p class="intro animate-in delay-2">
+      This day is a reminder to celebrate love—the quiet moments, the laughter, 
+      and the joy of being together.
+    </p>
+
+    <div class="divider reveal">
+      <span class="divider-line"></span>
+      <span class="divider-icon">♥ ♡ ♥</span>
+      <span class="divider-line"></span>
+    </div>
+
+    <div class="hero-block reveal">
+      <p>
+        You make ordinary days feel extraordinary. Thank you for being you—for the 
+        kindness, the patience, and the love you bring into my life. Here's to more 
+        adventures, more laughs, and many more Valentine's Days together.
+      </p>
+    </div>
+
+    <!-- Decorative image strip -->
+    <div class="deco-strip reveal" id="decoStrip" aria-hidden="true"></div>
+    
+    <!-- Love message display -->
+    <div class="love-message-container" id="loveMessageContainer">
+      <div class="love-message" id="loveMessage"></div>
+    </div>
+
+    <div class="divider reveal">
+      <span class="divider-line"></span>
+      <span class="divider-icon">♥</span>
+      <span class="divider-line"></span>
+    </div>
+
+    <div class="reveal" style="text-align: center;">
+      <button type="button" class="cta-btn" id="ctaBtn">Send Love</button>
+    </div>
+  </main>
+
+  <!-- Love Card Popup -->
+  <div id="loveCardPopup" class="popup-overlay">
+    <div class="love-card">
+      <button class="close-btn" id="closePopup">&times;</button>
+      <div class="card-content">
+        <div class="card-header">
+          <span class="heart-icon">♥</span>
+          <h2>A Special Note</h2>
+        </div>
+        <div class="card-body">
+          <p class="card-prompt">To my special someone,</p>
+          <textarea id="specialNote" placeholder="Write your romantic note here..."></textarea>
+          <p class="card-footer">With all my love,</p>
+          <div class="signature-line"></div>
+        </div>
+        <div class="card-actions">
+          <button id="saveNote" class="cta-btn">Seal with Love</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>With love — Valentine's Day</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
