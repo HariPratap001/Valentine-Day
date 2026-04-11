@@ -7,12 +7,12 @@
 
   const HEART_CHARS = ['♥', '♡', '♥', '♡'];
   const DECO_IMAGES = [
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-ca91239a-59e7-4ac3-8ffa-5d67c9846ced.png',
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-a9aea122-f87d-478c-a4ad-a91a955abebc.png',
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-104f4572-2fb4-4d80-a4ab-b10bc1cb3e39.png',
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-73f7e63e-586c-4295-b7f9-2087abf3394c.png',
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-4693e5e0-4446-4a4d-9ec9-13436ee0a175.png',
-    'assets/c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-1d13bea0-8297-4bd3-bc4b-a2343dd33cf0.png'
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-ca91239a-59e7-4ac3-8ffa-5d67c9846ced.png',
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-a9aea122-f87d-478c-a4ad-a91a955abebc.png',
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-104f4572-2fb4-4d80-a4ab-b10bc1cb3e39.png',
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-73f7e63e-586c-4295-b7f9-2087abf3394c.png',
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-4693e5e0-4446-4a4d-9ec9-13436ee0a175.png',
+    'c__Users_HP_AppData_Roaming_Cursor_User_workspaceStorage_082012095a7be38d4d90bc8f2c17134d_images_image-1d13bea0-8297-4bd3-bc4b-a2343dd33cf0.png'
   ];
 
   // ===== FLOATING HEARTS BACKGROUND =====
